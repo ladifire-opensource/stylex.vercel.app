@@ -59,6 +59,7 @@ const styles = stylex.create({
         maxWidth: 800,
         marginTop: "3rem",
 
+        // @ts-ignore
         "@media (max-width: 600px)": {
             width: "100%",
             flexDirection: "column"
